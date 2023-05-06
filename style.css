@@ -1,0 +1,62 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    background-color: rgb(250, 249, 244);
+    border: 1px solid goldenrod;
+    width: 280px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10vh 0px 10px 0 ;
+    text-align: center;
+    outline: none;
+}
+#masterContainer{
+    border: 1px solid goldenrod;
+    border-radius: 25px;
+    width: fit-content;
+    padding: 5px;
+    margin: 0 auto 10px auto;
+    display: none;
+}
+#label{
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 48px;
+    margin-top: -2px;
+    border: 1px solid goldenrod;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: none;
+    width: 260px;
+    background-color: gold;
+}
+#qrContainer{
+    width: 300px;
+    height: 300px;
+    border: 1px solid goldenrod;
+    display: none;
+    background-color: gold;
+    border-radius: 25px;
+    position: relative;
+}
+#qrCode{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+button{
+    padding: 10px;
+    background-color: gold;
+    border: 1px solid goldenrod;
+    color: white;
+    width: 300px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+}    
